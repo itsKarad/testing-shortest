@@ -1,3 +1,5 @@
+import math
+
 class numbers:
     def add(self, x, y):
         return x + y
@@ -11,3 +13,9 @@ class numbers:
     def divide(self, x, y):
         # optionally handle division by zero
         return x / y
+
+    def exp(self, x):
+        return math.exp(x)
+
+    def power(self, x, n):
+        return x ** n
